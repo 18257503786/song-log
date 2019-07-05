@@ -20,7 +20,7 @@ return [
     | 默认自带: "Info", "Api", "Exception"
     |
     */
-    'default' => env('SONG_LOG_DEFAULT', 'Info'),
+    'default' => env('WATERMELON_LOG_DEFAULT', 'Info'),
 
 
     /*

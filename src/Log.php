@@ -20,6 +20,6 @@ class Log extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'songlog';
+        return 'watermelonlog';
     }
 }

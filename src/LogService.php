@@ -18,7 +18,7 @@ class LogService
         foreach ($config['drives'] as $k => $v) {
             $drive = ucfirst($k);
             if ($v == 'own') {
-                $path           = 'Song\Log\Logs\drivers\\'.$drive.'Log';
+                $path           = 'Watermelon\Log\Logs\drivers\\'.$drive.'Log';
                 $drives[$drive] = $path;
             } else {
                 $drives[$drive] = $v;

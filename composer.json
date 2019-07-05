@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Song\\Log\\": "src/"
+            "Watermelon\\Log\\": "src/"
         }
     },
     "extra": {
@@ -21,8 +21,8 @@
             "providers": ["Watermelon\\Log\\LogServiceProvider"]
         },
         "aliases": {
-            "SongLog": {
-                "SongLog": "Watermelon\\Log\\Log"
+            "WatermelonLog": {
+                "WatermelonLog": "Watermelon\\Log\\Log"
             }
         }
     },
