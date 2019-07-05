@@ -29,6 +29,7 @@ class CreateWatermelonLogTable extends Migration
             $table->text('result')->nullable()->comment('响应内容');                 //响应内容
             $table->timestamps();
         });
+        $prefix = config('database.connections.mysql.prefix');
         \Illuminate\Support\Facades\DB::statement("ALTER TABLE `".$prefix."watermelon_logs` comment '日志表'");//表注释
     }
 
