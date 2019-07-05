@@ -1,6 +1,6 @@
 <?php
 
-namespace Song\Log;
+namespace Watermelon\Log;
 
 use Illuminate\Support\Facades\Facade;
 

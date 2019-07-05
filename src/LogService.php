@@ -1,8 +1,8 @@
 <?php
 
-namespace Song\Log;
+namespace Watermelon\Log;
 
-use Song\Log\exception\LogException;
+use Watermelon\Log\exception\LogException;
 
 class LogService
 {

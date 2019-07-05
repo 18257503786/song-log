@@ -6,10 +6,10 @@
  * Time: 14:54
  */
 
-namespace Song\Log\Logs\Drivers;
+namespace Watermelon\Log\Logs\Drivers;
 
-use Song\Log\Logs\LogAbstract;
-use Song\Log\Logs\LogInterface;
+use Watermelon\Log\Logs\LogAbstract;
+use Watermelon\Log\Logs\LogInterface;
 
 class ExceptionLog extends LogAbstract implements LogInterface
 {

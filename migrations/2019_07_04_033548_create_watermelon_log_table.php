@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateSongLogTable extends Migration
+class CreateWatermelonLogTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateSongLogTable extends Migration
      */
     public function up()
     {
-        Schema::create('song_logs', function (Blueprint $table)
+        Schema::create('watermelon_logs', function (Blueprint $table)
         {
             $table->increments('id');
             $table->integer('user_id')->default(0)->nullable()->index()->comment('用户id');             //用户id
@@ -29,7 +29,7 @@ class CreateSongLogTable extends Migration
             $table->text('result')->nullable()->comment('响应内容');                 //响应内容
             $table->timestamps();
         });
-        \Illuminate\Support\Facades\DB::statement("ALTER TABLE `song_logs` comment '日志表'");//表注释
+        \Illuminate\Support\Facades\DB::statement("ALTER TABLE `watermelon_logs` comment '日志表'");//表注释
     }
 
     /**
@@ -39,6 +39,6 @@ class CreateSongLogTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('song_logs');
+        Schema::dropIfExists('watermelon_logs');
     }
 }

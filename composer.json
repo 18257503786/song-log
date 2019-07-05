@@ -1,5 +1,5 @@
 {
-    "name": "song/log",
+    "name": "watermelon/log",
     "description": "This is a test log extension package",
     "type": "library",
     "require-dev": {
@@ -7,7 +7,7 @@
     },
     "authors": [
         {
-            "name": "leisong",
+            "name": "watermelon",
             "email": "12138576485@qq.com"
         }
     ],
@@ -18,11 +18,11 @@
     },
     "extra": {
         "laravel": {
-            "providers": ["Song\\Log\\LogServiceProvider"]
+            "providers": ["Watermelon\\Log\\LogServiceProvider"]
         },
         "aliases": {
             "SongLog": {
-                "SongLog": "Song\\Log\\Log"
+                "SongLog": "Watermelon\\Log\\Log"
             }
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace Song\Log\Exception;
+namespace Watermelon\Log\Exception;
 
 /**
  * Created by PhpStorm.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Song\Log\Logs;
+namespace Watermelon\Log\Logs;
 
 /**
  * Created by PhpStorm.

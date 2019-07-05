@@ -1,6 +1,6 @@
 <?php
 
-namespace Song\Log\Models;
+namespace Watermelon\Log\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -12,7 +12,7 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Log extends Model
 {
-    protected $table = 'song_logs';
+    protected $table = 'watermelon_logs';
 
     /**
      * The attributes that are mass assignable.

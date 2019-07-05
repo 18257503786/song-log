@@ -1,8 +1,8 @@
 <?php
 
-namespace Song\Log\Logs;
+namespace Watermelon\Log\Logs;
 
-use Song\Log\Models\Log;
+use Watermelon\Log\Models\Log;
 
 /**
  * Created by PhpStorm.
