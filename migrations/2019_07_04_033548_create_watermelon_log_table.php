@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Support\Facades\DB;
 
 class CreateWatermelonLogTable extends Migration
 {
@@ -30,7 +31,7 @@ class CreateWatermelonLogTable extends Migration
             $table->timestamps();
         });
         $prefix = config('database.connections.mysql.prefix');
-        \Illuminate\Support\Facades\DB::statement("ALTER TABLE `".$prefix."watermelon_logs` comment '日志表'");//表注释
+        DB::statement("ALTER TABLE `".$prefix."watermelon_logs` comment '日志表'");//表注释
     }
 
     /**
