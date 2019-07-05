@@ -29,7 +29,7 @@ class CreateWatermelonLogTable extends Migration
             $table->text('result')->nullable()->comment('响应内容');                 //响应内容
             $table->timestamps();
         });
-        \Illuminate\Support\Facades\DB::statement("ALTER TABLE `watermelon_logs` comment '日志表'");//表注释
+        \Illuminate\Support\Facades\DB::statement("ALTER TABLE `".$prefix."watermelon_logs` comment '日志表'");//表注释
     }
 
     /**
