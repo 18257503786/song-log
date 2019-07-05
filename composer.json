@@ -11,11 +11,11 @@
             "email": "12138576485@qq.com"
         }
     ],
-    "autoload": [
+    "autoload": {
         "psr-4": {
             "Song\\Log\\": "src/"
         }
-    ],
+    },
     "extra": {
         "laravel": {
             "providers": ["Song\\Log\\LogServiceProvider"]
